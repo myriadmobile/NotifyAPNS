@@ -1,0 +1,11 @@
+framework module NotifyAPNS {
+  umbrella header "NotifyAPNS-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module NotifyAPNS.Swift {
+    header "NotifyAPNS-Swift.h"
+    requires objc
+}
