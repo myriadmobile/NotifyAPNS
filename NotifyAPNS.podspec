@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'NotifyAPNS'
   s.version          = '3.1.0'
   s.license          = { :type => 'Private', :text => <<-LICENSE
-                          Copyright Bushel Inc.
+                          Copyright 2020 Bushel Inc.
                         LICENSE
                       }
   s.summary          = 'NotifyAPNS is a pod that allows for easy management of push notification services.'
