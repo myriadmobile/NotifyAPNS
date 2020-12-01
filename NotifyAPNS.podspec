@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NotifyAPNS'
-  s.version          = '3.1.0'
+  s.version          = '3.1.1'
   s.license          = { :type => 'Private', :text => <<-LICENSE
                           Copyright 2020 Bushel Inc.
                         LICENSE
@@ -21,7 +21,7 @@ NotifyAPNS is a pod that allows for easy management of push notification service
 
   s.homepage         = 'https://github.com/myriadmobile/NotifyAPNS'
   s.author           = { 'Alex Larson' => 'alarson@myriadmobile.com' }
-  s.source           = { :http => 'https://github.com/myriadmobile/NotifyAPNS/releases/download/3.1.0/NotifyAPNS.tar.gz' }
+  s.source           = { :http => 'https://github.com/myriadmobile/NotifyAPNS/releases/download/3.1.1/NotifyAPNS.tar.gz' }
 
   s.ios.deployment_target = '10.0'
   s.swift_version = '4.0'
